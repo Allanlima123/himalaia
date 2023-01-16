@@ -34,7 +34,8 @@
     margin: 2rem 0;
 }
 
-.page_main .main_news .feed_news_main .box_introduction_page .network_and_update{
+.page_main .main_news .feed_news_main 
+.box_introduction_page .network_and_update{
     display: flex;
     align-items: center;
     padding: 2rem 0;
@@ -43,31 +44,37 @@
     border-bottom: .1rem solid #e3dfdfce;
 }
 
-.page_main .main_news .feed_news_main .box_introduction_page .network_and_update .date_update{
+.page_main .main_news .feed_news_main 
+.box_introduction_page .network_and_update .date_update{
     font-size: 1.3rem;
     font-weight: 500;
     font-family: var(--font-third);
     color: var(--color-linghtGray);
 }
 
-.page_main .main_news .feed_news_main .box_introduction_page .network_and_update .box_icons{
+.page_main .main_news .feed_news_main 
+.box_introduction_page .network_and_update .box_icons{
     display: flex;
     align-items: center;
 }
 
-.page_main .main_news .feed_news_main .box_introduction_page .network_and_update .box_icons li{
+.page_main .main_news .feed_news_main 
+.box_introduction_page .network_and_update .box_icons li{
     margin: .5rem;
 }
 
-.page_main .main_news .feed_news_main .box_introduction_page .network_and_update .box_icons li a i{
+.page_main .main_news .feed_news_main 
+.box_introduction_page .network_and_update .box_icons li a i{
     font-size: 2rem;
 }
 
-.page_main .main_news .feed_news_main .box_introduction_page .image_and_text{
+.page_main .main_news .feed_news_main 
+.box_introduction_page .image_and_text{
     margin-top: 4.5rem;
 }
 
-.page_main .main_news .feed_news_main .box_introduction_page .image_and_text a .image_testimonyOne{
+.page_main .main_news .feed_news_main 
+.box_introduction_page .image_and_text a .image_testimonyOne{
     margin-bottom: 5.5rem;
 }
 
@@ -129,7 +136,8 @@ a figure figcaption i{
     font-weight: 600;
 }
 
-.page_main .main_news .feed_news_main .use_and_result .about_composition .btn_comprar{
+.page_main .main_news .feed_news_main 
+.use_and_result .about_composition .btn_comprar{
     display: block;
     background: var(--color-linghtPink);
     font-size: 1.4rem;

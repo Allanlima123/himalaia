@@ -13,7 +13,8 @@
     border-bottom: .1rem solid #DDD;
 }
 
-.page_main .main_news .feed_news_main .box_comments .about_comments{
+.page_main .main_news .feed_news_main 
+.box_comments .about_comments{
     margin-top: 2rem;
     font-size: 1.5rem;
     font-family: var(--font-third);
@@ -24,19 +25,22 @@
     text-indent: 2rem;
 }
 
-.page_main .main_news .feed_news_main .box_comments .comments{
+.page_main .main_news .feed_news_main 
+.box_comments .comments{
     position: relative;
     padding: 1rem 0 0 1rem;
     margin: 3rem 0 2rem 5rem;
 }
 
-.page_main .main_news .feed_news_main .box_comments .comments .card_comments{
+.page_main .main_news .feed_news_main 
+.box_comments .comments .card_comments{
     position: relative;
     padding: 0 0 5rem 7rem;
     border-left: .1rem solid #DDD;
 }
 
-.page_main .main_news .feed_news_main .box_comments .comments .card_comments .image_user{
+.page_main .main_news .feed_news_main 
+.box_comments .comments .card_comments .image_user{
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
@@ -45,14 +49,16 @@
     overflow: hidden;
 }
 
-.page_main .main_news .feed_news_main .box_comments .comments .card_comments .user_comment .name_use{
+.page_main .main_news .feed_news_main 
+.box_comments .comments .card_comments .user_comment .name_use{
     font-size: 2rem;
     color: var(--color-lihgtblack);
     font-family: var(--font-primary);
     font-weight: 500;
 }
 
-.page_main .main_news .feed_news_main .box_comments .comments .card_comments .user_comment .date_comment{
+.page_main .main_news .feed_news_main 
+.box_comments .comments .card_comments .user_comment .date_comment{
     display: block;
     color: #999;
     font-family: var(--font-third);
@@ -61,7 +67,8 @@
     font-weight: 500;
 }
 
-.page_main .main_news .feed_news_main .box_comments .comments .card_comments .user_comment .comment{
+.page_main .main_news .feed_news_main 
+.box_comments .comments .card_comments .user_comment .comment{
     width: 37rem;
     font-size: 1.6rem;
     font-family: var(--font-primary);
@@ -70,7 +77,9 @@
     line-height: 1.5;
 }
 
-.page_main .main_news .feed_news_main .box_comments .comments .closed_comment{
+.page_main .main_news .feed_news_main 
+.box_comments .comments .closed_comment{
+    border-radius: .5rem;
     display: block;
     position: absolute;
     left: -2rem;
