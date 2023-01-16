@@ -1,0 +1,147 @@
+/* Estilo Grid */
+
+.page_main .main_news{
+    margin: 5.6rem 0;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-areas: "feed_news_main Latest_news";
+}
+
+.page_main .main_news .feed_news_main{
+    max-width: 48rem;
+    grid-area: feed_news_main;
+}
+
+.page_main .main_news .Latest_news{
+    max-width: 41rem;
+    grid-area: Latest_news;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .title{
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+    color: var(--color-black);
+    font-family: var(--font-primary);
+    width: 46rem;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .intertitulo{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--font-third);
+    color: var(--color-lightgray);
+    margin: 2rem 0;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .network_and_update{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    border-bottom: .1rem solid #e3dfdfce;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .network_and_update .date_update{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: var(--font-third);
+    color: var(--color-linghtGray);
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .network_and_update .box_icons{
+    display: flex;
+    align-items: center;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .network_and_update .box_icons li{
+    margin: .5rem;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .network_and_update .box_icons li a i{
+    font-size: 2rem;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .image_and_text{
+    margin-top: 4.5rem;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .image_and_text a .image_testimonyOne{
+    margin-bottom: 5.5rem;
+}
+
+a figure figcaption{
+    display: flex;
+    align-items: center;
+    padding-top: .3rem;
+    color: var(--color-black);
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+a figure figcaption i{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+.image_and_text .text_paragraph,
+.box_about_treatment .text_paragraph,
+.test_gota_himalaia .text_paragraph,
+.use_and_result .text_paragraph{
+    width: 100%;
+    font-size: 1.8rem;
+    font-family: var(--font-primary);
+    color: var(--color-black);
+    line-height: normal;
+    font-weight: normal;
+    margin: 2.3rem 0 2rem 0;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.image_and_text .sub_title,
+.box_about_treatment .sub_title,
+.test_gota_himalaia .sub_title,
+.use_and_result .sub_title{
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: var(--color-linghtGray);
+    line-height: 3rem;
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.page_main .main_news .feed_news_main .use_and_result .about_composition{
+    border-bottom: .1rem solid #DDD;
+    padding-bottom: 2rem;
+}
+
+.page_main .main_news .feed_news_main .use_and_result .about_composition h4{
+    font-size: 2rem;
+    color: var(--color-linghtGray);
+    line-height: normal;
+    margin: 2rem 0;
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
+
+.page_main .main_news .feed_news_main .use_and_result .about_composition .btn_comprar{
+    display: block;
+    background: var(--color-linghtPink);
+    font-size: 1.4rem;
+    color: var(--color-white);
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 4rem;
+    width: 17.714rem;
+    height: 4rem;
+    margin-top: 2rem;
+    font-family: var(--font-primary);
+    animation: pulse 1.5s linear infinite;
+    -webkit-animation-duration: 1.5s;
+}

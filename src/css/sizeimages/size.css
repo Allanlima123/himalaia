@@ -1,0 +1,28 @@
+.page_main .main_news .feed_news_main .box_introduction_page .image_and_text a .image_testimonyOne,
+.page_main .main_news .feed_news_main .box_introduction_page .image_and_text a .image_testimonyTwo,
+.page_main .main_news .feed_news_main .test_gota_himalaia a .gota_himalaia_test,
+.page_main .main_news .feed_news_main .use_and_result .about_composition .image_composition{
+    width: 48.117rem;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .image_and_text a .image_testimonyOne,
+.page_main .main_news .feed_news_main .use_and_result .about_composition .image_composition{
+    height: 32.078rem;
+}
+
+.page_main .main_news .feed_news_main .box_introduction_page .image_and_text a .image_testimonyTwo{
+    height: 35.923rem;
+}
+
+.page_main .main_news .feed_news_main .box_about_treatment a .Gota_himalaia_treatment{
+    height: 18.188rem;
+}
+
+.page_main .main_news .feed_news_main .box_about_treatment a .Gota_himalaia_treatment img{
+    width: 36.6117rem;
+    margin: 0 7rem;
+}
+
+.page_main .main_news .feed_news_main .test_gota_himalaia a .gota_himalaia_test{
+    height: 27.05rem;
+}

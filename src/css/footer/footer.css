@@ -1,0 +1,42 @@
+.container_footer{
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-linghtGray);
+    color: var(--color-white);
+}
+
+.container_footer .max-width .box_copy .text_copy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_footer .max-width .box_copy .text_copy .company_cnpj,
+.container_footer .max-width .box_copy .text_copy .description_product{
+    display: block;
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-family: var(--font-secondary);
+    color: var(--color-white);
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.container_footer .max-width .box_copy .text_copy .company_cnpj{
+    width: 40rem;
+}
+
+.container_footer .max-width .box_copy .text_copy .description_product{
+    width: 90rem;
+}
+
+.container_footer .max-width .box_copy  .copy_right{
+    display: block;
+    font-size: 1.6rem;
+    font-family: var(--font-secondary);
+    color: var(--color-white);
+    font-weight: normal;
+    padding: 0 2rem;
+}

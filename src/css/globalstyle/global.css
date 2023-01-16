@@ -1,0 +1,54 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
+:root{
+    --font-primary: Arial, Helvetica, sans-serif;
+    --font-secondary:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-third:"Open Sans", sans-serif;
+    --color-linghtRed:#b80c00;
+    --color-white:#FFFFFF;
+    --color-gray:#666666;
+    --color-linghtPink:#F0506E;
+    --color-linghtGray:#222222;
+    --color-lihgtblack: #333;
+    --color-black:#000;
+    --color-lightgray:#929292;
+}
+
+.max-width{
+    margin: 0 auto;
+    max-width: 98rem;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* Color Icons */
+
+.fa-facebook-f{
+    color: #4267B2;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+.fa-whatsapp{
+    color: #2FB140;
+}
+
+.fa-linkedin-in{
+    color: #1377B5;
+}
+
+.fa-pinterest-p{
+    color: #B7081B;
+}
+
+.fa-camera{
+    color: #980000;
+}
+
+

@@ -1,0 +1,98 @@
+@media (max-width:1024px) {
+    .page_main .main_news{
+        margin: 5.6rem auto;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+        max-width: 48rem;
+        grid-template-areas: "feed_news_main"
+                             "Latest_news";
+    }
+
+    .max-width{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .page_main .main_news .Latest_news{
+        margin: 7rem 0;
+    }
+
+    .container_footer .max-width .box_copy{
+        padding: 0 3rem 3rem 3rem;
+    }
+}
+
+@media (max-width:570px){
+    .page_main .max-width .main_news .feed_news_main,
+    .page_main .max-width .main_news .Latest_news{
+        min-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .page_main .max-width .main_news .feed_news_main .box_introduction_page .title{
+        width: 100%;
+        font-size: 2.6rem;
+        font-weight: 600;
+        line-height: 1.2;
+        color: var(--color-black);
+        font-family: var(--font-primary);
+    }
+
+    .page_main .main_news .feed_news_main .box_introduction_page .intertitulo {
+        font-size: 1.7rem;
+        margin-bottom: 3rem;
+    }
+
+    .page_main .main_news .feed_news_main .box_comments .comments {
+        margin: 3rem 0 2rem 3rem;
+    }
+
+    .page_main .main_news .feed_news_main .box_comments .comments .card_comments {
+        padding: 0 0 5rem 4rem;
+    }
+    
+    .page_main .main_news .feed_news_main .box_comments .comments .card_comments .user_comment .comment,
+    .page_main .main_news .feed_news_main .box_comments .comments .closed_comment{
+        width: 100%;
+    }
+}
+
+@media (max-width:425px){
+    .page_main .main_news{
+        margin-bottom: -1rem;
+    }
+
+    .page_main .main_news .feed_news_main .box_introduction_page .network_and_update{
+        flex-wrap: wrap;
+    }
+
+    .page_main .main_news .feed_news_main .box_introduction_page .image_and_text a .image_testimonyOne,
+    .page_main .main_news .feed_news_main .box_introduction_page .image_and_text a .image_testimonyTwo,
+    .page_main .main_news .feed_news_main .test_gota_himalaia a .gota_himalaia_test,
+    .page_main .main_news .feed_news_main .use_and_result .about_composition .image_composition,
+    .page_main .main_news .feed_news_main .box_about_treatment a .Gota_himalaia_treatment img{
+        width: 100%;
+    }
+
+    .page_main .main_news .feed_news_main .box_about_treatment a .Gota_himalaia_treatment img {
+        margin: 0;
+    }
+
+    .Latest_news  .image_post{
+        width: 100%;
+        height: 60.5rem;
+    }
+
+    .Latest_news  .image_post img{
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:375px){
+    .page_main .main_news .feed_news_main .box_comments .total_comments {
+        font-size: 2.8rem;
+    }
+}
+
