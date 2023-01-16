@@ -1,10 +1,13 @@
 .container_footer{
-    padding-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--color-linghtGray);
     color: var(--color-white);
+}
+
+.container_footer .max-width .box_copy{
+    padding-bottom: 3rem;
 }
 
 .container_footer .max-width .box_copy .text_copy{
@@ -25,11 +28,11 @@
 }
 
 .container_footer .max-width .box_copy .text_copy .company_cnpj{
-    width: 40rem;
+    width: 35rem;
 }
 
 .container_footer .max-width .box_copy .text_copy .description_product{
-    width: 90rem;
+    width: 60rem;
 }
 
 .container_footer .max-width .box_copy  .copy_right{

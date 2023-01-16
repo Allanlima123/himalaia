@@ -1,7 +1,23 @@
+/* Advertorial */
+.advertorial{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.advertorial strong{
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--color-lihgtblack);
+}
+
 /* Estilo Grid */
 
 .page_main .main_news{
-    margin: 5.6rem 0;
+    margin: 3rem 0;
     padding: 0 1rem;
     display: grid;
     grid-template-areas: "feed_news_main Latest_news";
