@@ -4,22 +4,39 @@
     align-items: center;
     background: var(--color-linghtGray);
     color: var(--color-white);
-}
-
-.container_footer .max-width .box_copy{
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .container_footer .max-width .box_copy .text_copy{
+    padding: 3rem 2rem;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container_footer .max-width .box_copy .text_copy .box_terms_and_security a{
+    display: block;
+    font-size: 2rem;
+    padding: 2rem;
+    color: var(--color-white);
+    text-decoration: underline;
+    font-size: 1.6rem;
+    font-family: var(--font-secondary);
+}
+
+.container_footer .max-width .box_copy .text_copy .box_company{
+    padding: 2rem;
+    max-width: 65%;
+}
+
+.container_footer .max-width .box_copy .text_copy .company_cnpj{
+    margin-bottom: 2rem;
 }
 
 .container_footer .max-width .box_copy .text_copy .company_cnpj,
 .container_footer .max-width .box_copy .text_copy .description_product{
     display: block;
-    padding: 2rem;
     font-size: 1.6rem;
     font-family: var(--font-secondary);
     color: var(--color-white);
@@ -27,12 +44,33 @@
     line-height: 1.5;
 }
 
-.container_footer .max-width .box_copy .text_copy .company_cnpj{
-    width: 35rem;
+.container_footer .max-width .box_copy .box_copy_right{
+    padding: 0 3rem;
 }
 
-.container_footer .max-width .box_copy .text_copy .description_product{
-    width: 60rem;
+.container_footer .max-width .box_copy .box_copy_right,
+.container_footer .max-width .box_copy .box_copy_right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_footer .max-width .box_copy .box_copy_right ul li{
+    border: .1rem solid #DDD;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--color-linghtGray);
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.container_footer .max-width .box_copy .box_copy_right ul li a i{
+    color: var(--color-white);
+    font-size: 2rem;
 }
 
 .container_footer .max-width .box_copy  .copy_right{
