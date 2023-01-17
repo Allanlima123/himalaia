@@ -82,6 +82,20 @@
     .container_footer .max-width .box_copy .text_copy .box_company{
         max-width: 100%;
     }
+
+    .container_footer .max-width .box_copy .box_copy_right ul li{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .container_footer .max-width .box_copy .box_copy_right ul li a i{
+        font-size: 1.5rem;
+    }
+
+    .container_footer .max-width .box_copy  .copy_right{
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width:425px){

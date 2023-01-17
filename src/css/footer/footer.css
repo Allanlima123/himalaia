@@ -52,6 +52,7 @@
 .container_footer .max-width .box_copy .box_copy_right ul{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
